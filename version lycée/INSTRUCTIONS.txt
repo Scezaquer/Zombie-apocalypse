@@ -1,0 +1,59 @@
+__author__ = [ 'Aurélien Bück-Kaeffer' ]
+__mail__ = 'aurelien.buck.kaeffer@gmail.com'
+__version__ = '0.0.1'
+
+Disclaimer : Ce jeu a été entièrement réalisé, que ce soit la programmation ou les graphismes,
+ par un élève de seconde, bénévolement et durant son temps libre. Soyez indulgents!
+
+################################# COMMENT LANCER LE JEU
+
+Pour lancez le jeu, commencez par lancer le programme "serveur" (.exe ou .py), puis
+lancez le programme "client" (.exe ou .py). Si vous arrivez sur une page vous
+demandant d'entrer votre pseudonyme, faites comme indiqué et appuyez sur la touche
+"entrée" pour valider votre choix. Sinon, refferez vous à la section "ERREURS" de
+ces instructions.
+
+################################# CONTROLES
+
+Se diriger vers le haut: Z ou la flèche directionelle supérieure
+Se diriger vers le bas: S ou la flèche directionelle inférieure
+Se diriger vers la droite: D ou la flèche directionelle droite
+Se diriger vers la gauche: G ou la flèche directionelle gauche
+Viser: Mouvement de la souris
+Tirer: Click gauche
+Quitter le jeu: Alt + F4
+
+################################# ERREURS
+
+Erreurs au lancement:
+	-Si le jeu ne se lance pas du tout et que vous possédez une version des programmes
+	avec une extension en .exe, votre ordinateur pourrait ne pas être compatible. Si
+	vous souhaitez tout de même essayer le jeu (et je vous en remercie), installez
+	une version des programmes avec une extension en .py 
+	(https://github.com/Scezaquer/Zombie-apocalypse) ainsi que l'installeur pour python 3.7
+	(https://www.python.org/downloads/). Executez l'installeur et installez python. Ensuite,
+	allez dans l'invite de commande de votre ordinateur (trouvable en tapant "cmd" dans la
+	barre de recherche windows) et tapez la commande "pip install pygame". Une fois que
+	c'est fait, vous pouvez lancer le jeu comme indiqué dans la section "COMMENT LANCER LE JEU"
+	(et prier pour que ca fonctionne...).
+	
+	-Si le jeu se lance bel et bien, mais que l'image de fond (et les textures en générale)
+	semble distordue, essayez de changer la résolution de votre écran (recommandé: 1600 x 900)
+	
+	-Dans d'autres cas, ou si les solutions proposées n'ont pas marchées, excusez moi mais
+	je ne peut rien pour vous. Vous pouvez cepandant me contacter en envoyant un
+	e-mail à aurelien.buck.kaeffer@gmail.com pour que je tente de régler le problème,
+	mais n'en attendez pas trop de ma part.
+
+Erreurs lors de la partie:
+	-Si le jeu s'est lancé correctement, mais qu'un problème est survenu au cours de la
+	partie:
+		1)Tentez de relancer le tout, comme indiqué dans la partie "COMMENT LANCER LE JEU"
+
+		2)Si 1 n'a pas fonctionné, tentez de supprimer tout ce qui se trouve dans le
+		fichier "scoreboard", puis relancezle tout.
+
+		3)Si 1 et 2 n'ont pas fonctionné, envoyez un email décrivant le problème et le/les messages d'erreurs à 
+		aurelien.buck.kaeffer@gmail.com afin que je puisse régler le problème
+		dans les prochaines versions et éventuellement vous donner la marche à
+		suivre pour faire fonctionner le jeu sur votre machine.
